@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color:#42BFED;
+}
+h2{
+    color: black;
+    position: fixed;
+    top: 0;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    background-color:#42BFED;
+    margin: 0;
+    line-height: 80px;
+
+}
+#map{
+    background-image: url("media/world-map.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 80px;
+}
+#india{
+    width: 20px;
+    position:relative;
+    margin: 0;
+    cursor: pointer;
+    z-index: 2;
+    top: 360px;
+    left: 980px;
+    transition-duration: 1s;
+}
+#india:hover{
+    width: 40px;
+    top: 340px;
+}
